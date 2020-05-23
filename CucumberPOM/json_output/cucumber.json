@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Guru99 home page test",
+        "description": "",
+        "id": "guru99-demo-application-test;validate-guru99-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15110482889,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 193176041,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2712292149,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logging into system",
+            "match": {
+              "location": "HomePageSteps.user_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10816459520,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate homepage title",
+            "match": {
+              "location": "HomePageSteps.validate_homepage_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Guru99 demo application test",
+    "description": "",
+    "id": "guru99-demo-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/RITESH/seleniumframework/CucumberPOM/src/main/java/com/qa/features/Guru99.feature"
+  }
+]
